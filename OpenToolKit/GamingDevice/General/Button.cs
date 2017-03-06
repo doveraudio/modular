@@ -10,6 +10,7 @@ namespace Modular.OpenToolKit.GamingDevice.General
     {
         private bool _state;
         private bool _old_state;
+        private bool _held_down;
         private int _index;
         private int _instance;
         public Button()
@@ -18,6 +19,7 @@ namespace Modular.OpenToolKit.GamingDevice.General
             _index = 0;
             this._state = Joystick.GetState(_instance).IsButtonDown((JoystickButton)_index);
             this._old_state = this._state;
+            
         }
 
         public Button(int instance, int index)
@@ -41,19 +43,34 @@ namespace Modular.OpenToolKit.GamingDevice.General
         }
 
         public bool State { get {
-                if (this._old_state != this._state)
-                {
-                    this._old_state = this._state;
-                    this._state = Joystick.GetState(_instance).IsButtonDown((JoystickButton)_index);
-                    if (this._state) { this.Press(); } else { this.Release(); }
-                }
+                  if (this._old_state != this._state)
+                  {
+                     // if (this._state) { this.Press(); } else { this.Release(); }
+                      //this._old_state = this._state;
+
+                      this._state = Joystick.GetState(_instance).IsButtonDown((JoystickButton)_index);
+
+
+                  }
+                //this._state = Joystick.GetState(_instance).IsButtonDown((JoystickButton)_index);
                 return this._state;
             }
         }
         public void Poll() {
-            
-            var x = this.State;
-
+            if (this._old_state != this._state)
+            {
+                if (this._state)
+                {
+                    this.Press();
+                    this._held_down = true;
+                }
+                else
+                {
+                    this.Release();
+                    this._held_down = false;
+                }
+                
+            }
         }
 
 
@@ -66,11 +83,13 @@ namespace Modular.OpenToolKit.GamingDevice.General
         public int Instance { get { return _instance; } }
         public virtual void Press()
         {
+            this._old_state = this._state;
             this.OnPressed(new ActionEventArgs(this.Instance));
         }
 
         public virtual void Release()
         {
+            this._old_state = this._state;
             this.OnReleased(new ActionEventArgs(this.Instance));
         }
 

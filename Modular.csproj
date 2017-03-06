@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E96AF129-7837-49E3-BE4E-D1ADABB15597}</ProjectGuid>
+    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Modular</RootNamespace>
-    <AssemblyName>Modular</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -30,74 +28,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
-      <HintPath>..\packages\OpenTK.1.1.2225.0\lib\net20\OpenTK.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsBase" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Midi\MidiConnection.cs" />
-    <Compile Include="Midi\MidiEvent.cs" />
-    <Compile Include="Midi\MidiEventArgs.cs" />
-    <Compile Include="Midi\MidiMessage.cs" />
-    <Compile Include="OpenToolKit\GamingDevice\Devices\Joystick.cs" />
-    <Compile Include="OpenToolKit\GamingDevice\General\ActionEvent.cs" />
-    <Compile Include="OpenToolKit\GamingDevice\General\ActionEventArgs.cs" />
-    <Compile Include="OpenToolKit\GamingDevice\General\ActionMessage.cs" />
-    <Compile Include="OpenToolKit\GamingDevice\General\Button.cs" />
-    <Compile Include="Primitive\BoolConnection.cs" />
-    <Compile Include="Primitive\BoolEventArgs.cs" />
-    <Compile Include="Primitive\BoolOutput.cs" />
-    <Compile Include="Primitive\BoolValue.cs" />
-    <Compile Include="Primitive\FloatConnection.cs" />
-    <Compile Include="Primitive\FloatEventArgs.cs" />
-    <Compile Include="Primitive\FloatOutput.cs" />
-    <Compile Include="Primitive\FloatValue.cs" />
-    <Compile Include="Primitive\IntegerConnection.cs" />
-    <Compile Include="Primitive\IntegerEventArgs.cs" />
-    <Compile Include="Primitive\IntegerOutput.cs" />
-    <Compile Include="Primitive\IntegerValue.cs" />
-    <Compile Include="Primitive\StringConnection.cs" />
-    <Compile Include="Primitive\StringEventArgs.cs" />
-    <Compile Include="Primitive\StringOutput.cs" />
-    <Compile Include="Primitive\StringValue.cs" />
-    <Compile Include="Primitive\UInt16Connection.cs" />
-    <Compile Include="Primitive\UInt16EventArgs.cs" />
-    <Compile Include="Primitive\UInt16Output.cs" />
-    <Compile Include="Primitive\UInt16Value.cs" />
-    <Compile Include="Primitive\UInt32Connection.cs" />
-    <Compile Include="Primitive\UInt32EventArgs.cs" />
-    <Compile Include="Primitive\UInt32Output.cs" />
-    <Compile Include="Primitive\UInt32Value.cs" />
-    <Compile Include="Primitive\UInt64Connection.cs" />
-    <Compile Include="Primitive\UInt64EventArgs.cs" />
-    <Compile Include="Primitive\UInt64Output.cs" />
-    <Compile Include="Primitive\UInt64Value.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility\Clock.cs" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <None Include="OpenTK.dll.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
 </Project>

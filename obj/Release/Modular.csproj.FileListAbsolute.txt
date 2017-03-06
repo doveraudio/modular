@@ -1,0 +1,12 @@
+C:\Code\WindowsApps\ModularPlatform\Modular\bin\Release\Modular.dll
+C:\Code\WindowsApps\ModularPlatform\Modular\bin\Release\Modular.pdb
+C:\Code\WindowsApps\ModularPlatform\Modular\bin\Release\OpenTK.dll
+C:\Code\WindowsApps\ModularPlatform\Modular\bin\Release\OpenTK.xml
+C:\Code\WindowsApps\ModularPlatform\Modular\obj\Release\Modular.dll
+C:\Code\WindowsApps\ModularPlatform\Modular\obj\Release\Modular.pdb
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\bin\Release\Modular.dll
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\bin\Release\Modular.pdb
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\bin\Release\OpenTK.dll
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\bin\Release\OpenTK.xml
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\obj\Release\Modular.dll
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\obj\Release\Modular.pdb

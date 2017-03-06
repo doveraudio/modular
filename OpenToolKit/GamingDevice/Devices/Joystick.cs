@@ -87,18 +87,18 @@ namespace Modular.OpenToolKit.GamingDevice.Devices {
 
             foreach (Button button in this.Buttons)
             {
-                if (this.oldstate.GetButton((JoystickButton)button.Index) != state.GetButton((JoystickButton)button.Index))
+                /*if (this.oldstate.GetButton((JoystickButton)button.Index) != state.GetButton((JoystickButton)button.Index))
                 {
                     if (state.GetButton((JoystickButton)button.Index) == ButtonState.Pressed)
                     {
                         button.Press();
-                    }
-                    if (state.GetButton((JoystickButton)button.Index) == ButtonState.Released)
+                    }else if (state.GetButton((JoystickButton)button.Index) == ButtonState.Released)
                     {
                         button.Release();
                     }
                 }
-
+                */
+                button.Poll();
             }
 
         }

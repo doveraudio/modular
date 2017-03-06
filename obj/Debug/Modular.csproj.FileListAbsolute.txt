@@ -1,0 +1,14 @@
+C:\Code\WindowsApps\ModularPlatform\Modular\bin\Debug\Modular.dll
+C:\Code\WindowsApps\ModularPlatform\Modular\bin\Debug\Modular.pdb
+C:\Code\WindowsApps\ModularPlatform\Modular\bin\Debug\OpenTK.dll
+C:\Code\WindowsApps\ModularPlatform\Modular\bin\Debug\OpenTK.xml
+C:\Code\WindowsApps\ModularPlatform\Modular\obj\Debug\Modular.csprojResolveAssemblyReference.cache
+C:\Code\WindowsApps\ModularPlatform\Modular\obj\Debug\Modular.dll
+C:\Code\WindowsApps\ModularPlatform\Modular\obj\Debug\Modular.pdb
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\bin\Debug\Modular.dll
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\bin\Debug\Modular.pdb
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\bin\Debug\OpenTK.dll
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\bin\Debug\OpenTK.xml
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\obj\Debug\Modular.csprojResolveAssemblyReference.cache
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\obj\Debug\Modular.dll
+C:\Code\WindowsApps\JoystickAppGuiTest\Modular\obj\Debug\Modular.pdb

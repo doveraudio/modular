@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Modular.Midi.MidiConnection" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Midi\MidiConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Midi.MidiEvent" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Midi\MidiEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Midi.MidiEventArgs" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Midi\MidiEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Midi.MidiMessage" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Midi\MidiMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.OpenToolKit.GamingDevice.Devices.Joystick" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQCAAAAEAAgAAAIBAAAAAAAAAABSAAAQAAABAAIAAQ=</HashCode>
+      <FileName>OpenToolKit\GamingDevice\Devices\Joystick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.OpenToolKit.GamingDevice.General.ActionEvent" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQ=</HashCode>
+      <FileName>OpenToolKit\GamingDevice\General\ActionEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.OpenToolKit.GamingDevice.General.ActionEventArgs" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQEAAAAAAAAA=</HashCode>
+      <FileName>OpenToolKit\GamingDevice\General\ActionEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.OpenToolKit.GamingDevice.General.ActionMessage" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQEAAAAAAAAA=</HashCode>
+      <FileName>OpenToolKit\GamingDevice\General\ActionMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.OpenToolKit.GamingDevice.General.Button" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAACAAAAAAAAAAgCABAAEAACAEAQAEABBAEAAA=</HashCode>
+      <FileName>OpenToolKit\GamingDevice\General\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.BoolConnection" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\BoolConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.BoolEventArgs" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\BoolEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.BoolOutput" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\BoolOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.BoolValue" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\BoolValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.FloatConnection" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\FloatConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.FloatEventArgs" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\FloatEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.FloatOutput" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\FloatOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.FloatValue" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\FloatValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.IntegerConnection" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\IntegerConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.IntegerEventArgs" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\IntegerEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.IntegerOutput" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\IntegerOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.IntegerValue" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\IntegerValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.StringConnection" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\StringConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.StringEventArgs" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\StringEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.StringOutput" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\StringOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.StringValue" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\StringValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt16Connection" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\UInt16Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt16EventArgs" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\UInt16EventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt16Output" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\UInt16Output.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt16Value" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\UInt16Value.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt32Connection" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\UInt32Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt32EventArgs">
+    <Position X="13" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\UInt32EventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt32Output" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\UInt32Output.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt32Value" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\UInt32Value.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt64Connection" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\UInt64Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt64EventArgs" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\UInt64EventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt64Output" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\UInt64Output.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.UInt64Value" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\UInt64Value.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.Generic.Connection&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAEAAQAABAAAAAAAQAAAAAQAAAAA=</HashCode>
+      <FileName>Primitive\Generic\Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.Generic.EventArgs&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\Generic\EventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Primitive.Generic.Value&lt;T&gt;" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitive\Generic\Value.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modular.Utility.Clock" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAAIAAAAAAAAAACAAAIQAAAAAAAQA=</HashCode>
+      <FileName>Utility\Clock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

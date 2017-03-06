@@ -9,6 +9,12 @@ namespace Modular.Utility
 {
    public class Clock
     {
+        public Clock() {
+            this._interval = 5;
+            this._timer = new DispatcherTimer();
+            this._timer.Interval = new TimeSpan(0, 0, 0, 0, this._interval);
+            
+        }
         private bool _running;
         private DispatcherTimer _timer;
         private int _interval;
